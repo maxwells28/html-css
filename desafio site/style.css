@@ -1,0 +1,158 @@
+@charset "UTF 8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family:'android';
+    src: url('/..fontes/idroid.otf') format('opentype');
+    font-weight:normal;
+}
+
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1cd;
+    --cor2: #3ddc85b4;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', 'cursive'; 
+    --font-android: 'andoid' 'cursive';
+}
+body{
+background-color:var(--cor1); 
+font-family: var(--font-padrao);
+
+
+    
+}
+header{
+    text-align: center;
+    font-family:var(--font-destaque);
+    color: white;
+    background-image: linear-gradient(to top, #1a5c37,#3ddc85b4 );
+    font-size: large;
+    margin: -2%;
+    
+   
+    
+    
+    
+}
+header> p{
+    font-family: var(--font-padrao)
+    ;
+}
+
+
+nav{
+    background-color: #1a5c37; 
+    padding: 1%;
+    margin: -2%;
+  
+   
+}
+nav> a{
+    color: white;
+    font-weight: bold;
+    padding-left: 12px;
+}
+   
+
+
+
+main{
+    background-color: white;
+    text-indent: 2%;;
+    margin: 160px;
+    margin-top: 2%;
+    min-width: 200px ;
+    max-width: 800px;
+    margin: auto;
+    font-family: var(--font-padrao);
+    
+    
+    
+    
+    
+}
+main h1{
+    color: var(--cor4);
+    font-family: var(--font-android);
+    
+}
+main> h2{
+    color: var(--cor4);
+    background-image: linear-gradient(to right, white, #83e1cd , white );
+} 
+img{
+    width: 100%;
+}   
+p{
+  text-indent: 15px;  
+  margin-left: 2%;
+  margin-right: 2%;
+}
+strong{
+    color: var(--cor4);
+}
+p> a{
+    color: var(--cor4);
+}
+p> b{
+    color:var(--cor4);
+}
+aside{
+    background-color:#acddec;
+    margin: 3%;
+    border-radius: 10px 10px 0 0;
+    padding-bottom: -5%;
+    
+    
+}
+h3{
+    background-color: var(--cor3);
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    
+    
+
+}
+ul{
+    display: inline-block;
+    
+    min-width: 200px;
+    margin: auto;
+    
+    
+} 
+aside> p{
+    margin-bottom: -3%;
+}   
+li> strong{
+    color: black;
+}
+footer{
+    background-color: white;
+    text-indent: 2%;;
+    margin: auto
+    margin-top: 0%;
+    
+    
+   
+    padding: 15px;
+    
+    
+   
+}  
+footer> p{ 
+   
+   
+ 
+    
+}  
+    
+    
+
+   
+   

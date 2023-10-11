@@ -1,4 +1,17 @@
 @charset "UTF8";
+@font-face{
+    font-family: "passione-bold";
+    src: url(fontes/PassionOne-Bold.ttf) format(truetype);
+}
+body{
+    
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em
+    
+}
+
 
 #titulo{
     background-color: black;
@@ -21,9 +34,46 @@
 }
 #p1{
     
-    text-align: left;
-    margin: 0px;
-    padding: 0px;
-    font-size: 1em;
-
+    margin-right: 600px;
+    padding: 30px;
+    font-size: 37px;
+    font-family: var(--font-bold);
+}
+#p2{
+    
+    margin-right: 600px;
+    padding: 30px;
+    font-size: 37px;
+    font-family: var(--font-bold);
+}
+#p3{
+    
+    margin-right: 600px;
+    padding: 30px;
+    font-size: 37px;
+    font-family: var(--font-bold);
+}
+#p4{
+    
+    margin-right: 600px;
+    padding: 30px;
+    font-size: 37px;
+    font-family: var(--font-bold);
+}
+#p5{
+    
+    margin-right: 600px;
+    padding: 30px;
+    font-size: 37px;
+    font-family: var(--font-bold);
+}
+footer > p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    
+    margin: -10px;
 }
